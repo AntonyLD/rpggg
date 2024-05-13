@@ -14,6 +14,11 @@
         
     }
 
+    #background{
+        background-size: contain;
+        background-image: url(img/74\ Sem\ Título_20240513150048.png);
+        background-attachment: fixed;
+    }
     
 
     #navegacao{
@@ -25,13 +30,7 @@
     }
 
     #header{
-        z-index: -10;
-
-        background-image: url(img/74\ Sem\ Título_20240513150048.png);
-        background-size: cover;
-        min-height: 100vw;
-        position: fixed;
-        top: 300px;
+        display: none;
     }
 
     #nav-ul{

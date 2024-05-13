@@ -6,6 +6,7 @@
     }
 
     body{
+        max-width: 100vw;
         background-color: #121212 ;
         font-family: "Be Vietnam Pro", sans-serif;
         
@@ -42,6 +43,31 @@
         width: 50px;
         padding: 10px;
         
+    }
+
+    #agua {
+        background-color: #0c8cff;
+        box-shadow: 0px 0px 15px #0c8cff;
+    }
+    
+    #fogo {
+        background-color: #cb0000;
+        box-shadow: 0px 0px 15px #cb0000;
+    }
+    
+    #raio {
+        background-color: #ddd000;
+        box-shadow: 0px 0px 15px #ddd000;
+    }
+    
+    #vento {
+        background-color: #00c07a;
+        box-shadow: 0px 0px 15px #00c07a;
+    }
+    
+    #terra {
+        background-color: #87550c;
+        box-shadow: 0px 0px 15px #87550c;
     }
 
     .jutsu img{

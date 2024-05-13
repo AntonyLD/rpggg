@@ -41,6 +41,12 @@
     .jutsu img{
         display: none;
     }
+
+    
+
+    #container-main{
+        background-color: #121212 ;
+    }
 }
 
 

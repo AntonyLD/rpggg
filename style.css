@@ -85,9 +85,12 @@
     }
 
     .jutsu{
-        background-color: rgba(12, 12, 12, 0.788);
-        padding: 0px 30px;
+        background-color: rgb(12, 12, 12);
+        height: 600px;
+        margin-bottom: 100px;
     }
+    
+    
 
     .jutsu img{
         
@@ -96,7 +99,9 @@
     }
 
     .jutsu p{ 
+        padding: 10px;
         width: 90vw;
+        text-align: center;
     }
 
     

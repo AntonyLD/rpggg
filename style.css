@@ -112,10 +112,12 @@
 
     #first{
         padding-top: 115px;
+        
     }
 
     #first-jutsu{
         padding-top: 45px;
+        padding-bottom: 10px;
     }
 
     #first-jutsu h1 {

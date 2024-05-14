@@ -110,8 +110,12 @@
         margin-bottom: 100px;
     }
 
+    #first{
+        padding-top: 140px;
+    }
+
     #first-jutsu{
-        padding-top: 96px;
+        padding-top: 16px;
     }
 
     #first-jutsu h1 {

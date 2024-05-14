@@ -92,7 +92,7 @@
 
     .contianer-jutsus{
         max-width: 100vw;
-        /* background-color: #121212 ; */
+        
     }
 
 
@@ -111,7 +111,7 @@
     
 
     #first{
-        padding-top: 125px;
+        padding-top: 115px;
     }
 
     #first-jutsu{
@@ -148,6 +148,11 @@
         font-size: 1.5em;
         border-radius: 10px;
         background-color: #cb0000;
+    }
+
+    #last{
+        
+        margin-bottom: 0px;
     }
 }
 

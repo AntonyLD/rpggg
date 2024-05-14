@@ -109,9 +109,8 @@
         margin-bottom: 100px;
     }
 
-    #first{
-        
-        padding-top: 80px;
+    #first-jutsu{
+        padding-top: 90px;
     }
 
     .jutsu img{
@@ -129,9 +128,17 @@
     }
 
     .jutsu p{
+        margin-bottom: 4px;
+        
         padding: 20px;
         width: 90vw;
         text-align: center;
+    }
+
+    .rank{
+        font-size: 1.5em;
+        border-radius: 10px;
+        background-color: #cb0000;
     }
 }
 

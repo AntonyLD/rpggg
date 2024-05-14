@@ -24,10 +24,9 @@
 
     #navegacao{
         position: fixed;
-        background-image: linear-gradient(to top,rgba(141, 140, 140, 0) 2% , rgba(12, 12, 12, 0.774) , rgba(12, 12, 12, 0.774), rgba(12, 12, 12, 0.774)  );
+        background-image: linear-gradient(to bottom, rgb(12, 12, 12) , rgba(12, 12, 12, 0.89) 50% , rgba(12, 12, 12, 0.767), rgba(12, 12, 12, 0.425), rgba(12, 12, 12, 0));
         width: 100vw;
-        height: 80px;
-        
+        height: 80px;      
     }
 
     #header{
@@ -116,11 +115,11 @@
     }
 
     #first-jutsu{
-        padding-top: 25px;
+        padding-top: 45px;
     }
 
     #first-jutsu h1 {
-        padding-bottom: 20px;
+        padding-bottom:  30px;
     }
 
     .jutsu img{

@@ -144,6 +144,9 @@
         text-align: center;
     }
 
+    .span-fogo{
+        color: #00c07a;
+    }
     .rank{
         font-size: 1.5em;
         border-radius: 10px;

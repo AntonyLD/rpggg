@@ -61,11 +61,11 @@
     }
 
     .light{
-        filter: brightness(0.2);
+        filter: brightness(0.4);
     }
 
     .selected{
-        filter: brightness(5);
+        filter: brightness(3);
     }
 
     #agua {

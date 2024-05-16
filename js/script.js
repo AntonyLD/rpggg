@@ -11,15 +11,9 @@ buttons.forEach((botao) => {
     });
   });
 
-
-  imgChange.forEach((gif) =>{
-    gif.addEventListener("click", () =>{
-        
-        
-
-        
-    })
-  })
+  window.onload = function() {
+    Gifffer();
+  }
 
 
   

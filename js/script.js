@@ -15,7 +15,7 @@ if (locateArchive === "/rpggg/index.html") {
     }
     
   });
-} else if (locateArchive === "/agua.html") {
+} else if (locateArchive === "/rpggg/agua.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#0c8cff"
   });
@@ -27,7 +27,7 @@ if (locateArchive === "/rpggg/index.html") {
     
   });
   
-} else if (locateArchive === "/vento.html") {
+} else if (locateArchive === "/rpggg/vento.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#00c07a"
   });
@@ -39,7 +39,7 @@ if (locateArchive === "/rpggg/index.html") {
     
   });
 
-} else if (locateArchive === "/terra.html") {
+} else if (locateArchive === "/rpggg/terra.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#87550c"
   });
@@ -50,7 +50,7 @@ if (locateArchive === "/rpggg/index.html") {
     }
     
   });
-} else if (locateArchive === "/raio.html") {
+} else if (locateArchive === "/rpggg/raio.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#ddd000"
   });

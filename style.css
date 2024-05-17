@@ -65,10 +65,6 @@
         filter: brightness(0.4);
     }
 
-    .selected{
-        filter: brightness(3);
-    }
-
     #agua {
         background-color: #0c8cff;
         box-shadow: 0px 0px 15px #0c8cff;

@@ -3,18 +3,19 @@ const imgChange = document.querySelectorAll(".contianer-jutsus div img");
 const rankBacground = document.querySelectorAll(".contianer-jutsus .rank")
 const btnLight = document.querySelectorAll(".light")
 
-const urlArchive = document.doctype.baseURI
-const splitUrl = urlArchive.split("/")
-const nameHtml = splitUrl[splitUrl.length - 1]
+const locateArchive = document.location.pathname
+console.log(locateArchive)
+// const splitUrl = urlArchive.split("/")
+// const nameHtml = splitUrl[splitUrl.length - 1]
 
-if (nameHtml === "index.html") {
+if (locateArchive === "/index.html") {
   btnLight.forEach((posi) =>{
     if(posi.id == "fogo"){
       posi = posi.style.filter = "brightness(1.4)"
     }
     
   });
-} else if (nameHtml === "agua.html") {
+} else if (locateArchive === "/agua.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#0c8cff"
   });
@@ -26,7 +27,7 @@ if (nameHtml === "index.html") {
     
   });
   
-} else if (nameHtml === "vento.html") {
+} else if (locateArchive === "/vento.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#00c07a"
   });
@@ -38,7 +39,7 @@ if (nameHtml === "index.html") {
     
   });
 
-} else if (nameHtml === "terra.html") {
+} else if (locateArchive === "/terra.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#87550c"
   });
@@ -49,7 +50,7 @@ if (nameHtml === "index.html") {
     }
     
   });
-} else if (nameHtml === "raio.html") {
+} else if (locateArchive === "/raio.html") {
   rankBacground.forEach((p) => {
     p.style.backgroundColor = "#ddd000"
   });

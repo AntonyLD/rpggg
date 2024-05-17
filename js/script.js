@@ -8,7 +8,7 @@ console.log(locateArchive)
 // const splitUrl = urlArchive.split("/")
 // const nameHtml = splitUrl[splitUrl.length - 1]
 
-if (locateArchive === "/index.html") {
+if (locateArchive === "/rpggg/index.html") {
   btnLight.forEach((posi) =>{
     if(posi.id == "fogo"){
       posi = posi.style.filter = "brightness(1.4)"

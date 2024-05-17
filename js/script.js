@@ -1,14 +1,7 @@
 const buttons = document.querySelectorAll("#button-celector li button");
-
 const imgChange = document.querySelectorAll(".contianer-jutsus div img");
-
 const rankBacground = document.querySelectorAll(".contianer-jutsus .rank")
-
-
 const btnLight = document.querySelectorAll(".light")
-
-
-
 
 const urlArchive = document.doctype.baseURI
 const splitUrl = urlArchive.split("/")
